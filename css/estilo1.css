@@ -15,10 +15,13 @@ body {
     margin: 5px;
     padding: 5px;
 }
+.carousel-item{
+    width: 100vh;
+}
+
 img {
     margin-right: 25px;
-    width: 25%;
-    height: auto;
+    height: vh;
     padding-top: 0;
     padding: 5px;
 }
@@ -56,3 +59,9 @@ nav{
     min-height: 500px;
     align-content: center;
     }
+
+.nav-item{
+    display: flex;
+    justify-content: right;
+
+}

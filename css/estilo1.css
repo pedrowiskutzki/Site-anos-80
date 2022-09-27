@@ -35,3 +35,24 @@ p{
     text-align: justify;
 
 }
+
+nav{
+    color: gold;
+    background-color: gold;
+}
+
+.carousel-inner{
+    background-color: aqua;
+    min-height: 450px;
+    padding: 10%;
+    
+}
+
+.cont{
+    margin: auto;
+    background-color: blueviolet;
+    width: 50%;
+    height: 50%;
+    min-height: 500px;
+    align-content: center;
+    }

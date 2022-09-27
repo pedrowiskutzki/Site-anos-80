@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'retro';
+    src: url('./KeeponTruckin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-image: linear-gradient(to right, #50f844, #31d7fc, #8725c5);;
+    
+}
+.container{
+    background-color: rgb(152, 135, 135);
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px;
+    margin: 5px;
+    padding: 5px;
+}
+img {
+    margin-right: 25px;
+    width: 25%;
+    height: auto;
+    padding-top: 0;
+    padding: 5px;
+}
+h1 {
+    position: center;
+    font-family: 'retro', Courier, monospace;
+    color: yellow;
+    font-size: 20px ;
+}
+p{
+    font-family: 'retro', Courier, monospace;
+    color: yellow;
+    font-size: 20px ;
+    text-align: justify;
+
+}

@@ -1,5 +1,5 @@
 #demo{
-    width: 105vh;
+    width: 850px;
     height: auto;
     margin-top: 50px;
     margin-right: 250px;
@@ -11,8 +11,8 @@
 .carousel-inner{
     background-color: rgb(30, 255, 0);
     margin-right: 50px;
-    min-height: 45px;
-    padding: 10%;
+    min-height: 25px;
+    padding: 00%;
     
 }
 .estilo_logo{
@@ -20,12 +20,14 @@
     padding-top: 0;
     padding: 8px;
 }
-
+.estilo_nav{
+    background-color: rgb(9, 9, 9);
+}
 .nav-item{
     display: flex;
 }
 
-.estilo_nav{
+.estilo_nav_options{
     width: 60%;
     display: flex;
     justify-content: right;

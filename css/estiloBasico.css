@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'retro';
+    src: url('./KeeponTruckin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-image: linear-gradient(to right, #50f844, #31d7fc, #8725c5);;
+    
+}
+
+h1 {
+    position: center;
+    font-family: 'retro', Courier, monospace;
+    color: yellow;
+    font-size: 20px ;
+}
+p{
+    font-family: 'retro', Courier, monospace;
+    color: yellow;
+    font-size: 20px ;
+    text-align: justify;
+
+}
+
+nav{
+    color: gold;
+    background-color: gold;
+}

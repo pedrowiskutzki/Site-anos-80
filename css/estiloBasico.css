@@ -15,11 +15,11 @@ h1 {
     color: yellow;
     font-size: 20px ;
 }
-p{
+.carousel-item>p{
     font-family: 'retro', Courier, monospace;
-    color: yellow;
-    font-size: 20px ;
-    text-align: justify;
+    color: rgb(25, 3, 44);
+    font-size: 400% ;
+    text-align: center;
 
 }
 

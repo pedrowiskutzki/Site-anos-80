@@ -5,9 +5,10 @@
     font-style: normal;
 }
 body {
-    background-image: linear-gradient(to right, #50f844, #31d7fc, #8725c5);;
+    background-image: linear-gradient(to right, #50f844, #31d7fc, #8725c5);
     
-}
+    
+}   
 .container{
     background-color: rgb(152, 135, 135);
     border-radius: 5px;
@@ -15,9 +16,17 @@ body {
     margin: 5px;
     padding: 5px;
 }
+.row{
+    display: flex;
+   
+}
+
+.col-md-6 {
+    margin: auto;
+}
 img {
     margin-right: 25px;
-    width: 25%;
+    width: 100%;
     height: auto;
     padding-top: 0;
     padding: 5px;
@@ -42,10 +51,32 @@ nav{
 }
 
 .carousel-inner{
-    background-color: aqua;
     min-height: 450px;
-    padding: 10%;
+    padding: 5%;
     
+}
+
+.carousel-indicators>li {
+
+    width: 30px;
+    height: 3px;
+    text-indent: 100%;
+
+}
+
+.carousel-item>img{
+
+    width: 100%;
+    height: 100%    ;
+
+}
+
+p{
+    font-family: 'retro', Courier, monospace;
+    color: yellow;
+    font-size: 20px ;
+    text-align: justify;
+
 }
 
 .estilo_nav_options{

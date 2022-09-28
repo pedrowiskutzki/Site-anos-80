@@ -1,37 +1,58 @@
-#demo{
-    width: 850px;
-    height: auto;
-    margin-top: 50px;
-    margin-right: 250px;
-    margin-left: 20px;
-
+@font-face {
+    font-family: 'retro';
+    src: url('./KeeponTruckin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
-.carousel-item{
-}
-.carousel-inner{
-    background-color: rgb(30, 255, 0);
-    margin-right: 50px;
-    min-height: 25px;
-    padding: 00%;
+body {
+    background-image: linear-gradient(to right, #50f844, #31d7fc, #8725c5);;
     
 }
-.estilo_logo{
+.container{
+    background-color: rgb(152, 135, 135);
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px;
+    margin: 5px;
+    padding: 5px;
+}
+img {
     margin-right: 25px;
+    width: 25%;
+    height: auto;
     padding-top: 0;
-    padding: 8px;
+    padding: 5px;
 }
-.estilo_nav{
-    background-color: rgb(9, 9, 9);
+h1 {
+    position: center;
+    font-family: 'retro', Courier, monospace;
+    color: yellow;
+    font-size: 20px ;
 }
-.nav-item{
-    display: flex;
+p{
+    font-family: 'retro', Courier, monospace;
+    color: yellow;
+    font-size: 20px ;
+    text-align: justify;
+
+}
+
+nav{
+    color: gold;
+    background-color: gold;
+}
+
+.carousel-inner{
+    background-color: aqua;
+    min-height: 450px;
+    padding: 10%;
+    
 }
 
 .estilo_nav_options{
     width: 60%;
     display: flex;
     justify-content: right;
-    text-align: ;
+
 }
 .text_img{
     display: flex;

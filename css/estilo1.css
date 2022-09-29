@@ -7,30 +7,30 @@
   
 body {
     background-image: linear-gradient(to right, #50f844, #31d7fc, #8725c5);
-    
-    
 }   
-.container{
-    background-color: rgb(152, 135, 135);
+.container-lg{
+    background-color: #4a4e4a;
     border-radius: 5px;
-    box-shadow: 10px 5px 5px;
-    margin: 5px;
-    padding: 5px;
+    box-shadow: rgb(40, 255, 21) 10px 5px 5px;
+    margin-top: 25px;
+    padding: 50px;
 }
 .row{
     display: flex;
-   
 }
 
 .col-md-6 {
     margin: auto;
 }
 img {
-    margin-right: 25px;
-    width: 100%;
+    margin: auto;
     height: auto;
-    padding-top: 0;
     padding: 5px;
+}
+.img_sobrenos{
+    margin:auto;
+    height: auto;
+    padding-left: 25em;
 }
 h1 {
     position: center;
@@ -40,10 +40,9 @@ h1 {
 }
 p{
     font-family: 'retro', Courier, monospace;
-    color: yellow;
+    color: rgb(2, 255, 78);
     font-size: 20px ;
     text-align: justify;
-
 }
 
 nav{
@@ -54,48 +53,22 @@ nav{
 .carousel-inner{
     min-height: 450px;
     padding: 2%;
-    
 }
 
 .carousel-indicators>li {
-
     width: 350px;
     height: 3px;
     text-indent: 100%;
-
 }
 
 .carousel-item>img{
-
     width: 200%;
     height: auto   ;
-
-}
-
-p{
-    font-family: 'retro', Courier, monospace;
-    color: yellow;
-    font-size: 20px ;
-    text-align: justify;
-
 }
 
 .estilo_nav_options{
     width: 60%;
     display: flex;
     justify-content: right;
-
-}
-.text_img{
-    display: flex;
-    flex-flow: wrap;
-    justify-content: right;
 }
 
-/* .container{
-    background-color: rgb(152, 135, 135);
-    border-radius: 5px;
-    box-shadow: 10px 5px 5px;
-    margin: 5px;
-    padding: 5px;
-} */

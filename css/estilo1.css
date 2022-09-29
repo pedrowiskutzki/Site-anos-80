@@ -4,6 +4,7 @@
     font-weight: normal;
     font-style: normal;
 }
+  
 body {
     background-image: linear-gradient(to right, #50f844, #31d7fc, #8725c5);
     
@@ -52,13 +53,13 @@ nav{
 
 .carousel-inner{
     min-height: 450px;
-    padding: 5%;
+    padding: 2%;
     
 }
 
 .carousel-indicators>li {
 
-    width: 30px;
+    width: 350px;
     height: 3px;
     text-indent: 100%;
 
@@ -66,8 +67,8 @@ nav{
 
 .carousel-item>img{
 
-    width: 100%;
-    height: 100%    ;
+    width: 200%;
+    height: auto   ;
 
 }
 

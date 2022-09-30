@@ -10,7 +10,8 @@
 }
 
 .formulario{
-    display: inline-block;
+    display: block;
+    
 }
 
 h2, .botao{
@@ -22,16 +23,28 @@ h2, .botao{
     color: rgb(90, 92, 219);
 }
 
-.rodape{
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    background-color: rgb(12, 12, 12);
-    text-align: center;
-    font-weight: bold;
-}
 
-.redessociais{
-    width: 3%;
-}
+textarea {
+    resize: none;
 
+  }
+
+  .nome>label{
+    margin-right: 0%;
+  }
+
+  #inputnome{
+    margin-right: 43.9%;
+  }
+
+  .email>label{
+    margin-right: 0%;
+  }
+
+  #inputemail{
+    margin-right: 44.8%;
+  }
+
+  .divbotao>.botao{
+    margin-top: 5%;
+  }

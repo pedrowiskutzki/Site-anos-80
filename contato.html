@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Sweet Dreams</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estiloBasico.css">
     <link rel="stylesheet" href="css/estilo1.css">
@@ -36,7 +36,7 @@
         <article class="container-lg">
         <h2>Fale conosco</h2>
         <form id="formulario">
-            <div class="nome">
+            <div  class="nome">
                 <label>Nome:</label>
                 <input class="inputnome" id="inputnome" type="text">
             </div>
@@ -49,26 +49,35 @@
                     <label>Digite sua mensagem:</label>
                 </div>
                 <div>
-                    <textarea class="inputmensagem" id="inputmensagem"></textarea>
+                    <textarea class="inputmensagem" rows="10" cols="70" id="inputmensagem"></textarea>
                 </div>
             </div>
             <div class="divbotao">
-                <button class="botao">
+                <button onclick="alert('Mensagem enviada com sucesso!')" class="botao">
                     <div>Enviar mensagem</div>
                 </button>
             </div>
         </form>
     </div>
         </article>
-    <footer class="rodape">
-        <div>
-            <p class="fonte_rodape">&copy; Sweet Dreams Ltda.</p>
-        </div>
-        <div>
-            <a href="https://www.instagram.com"><img class="redessociais" src="img/instagram.png" /></a>
-            <a href="https://www.facebook.com"><img class="redessociais" src="img/face.webp" /></a>
-        </div>
-    </footer>
+        <footer class="layout-rodape">
+
+
+            <div id="footer" class="col-md-3">
+              <p class="fonte_rodape">&copy; Sweet Dreams Ltda.</p>
+              <a href="https://www.facebook.com/">
+                <img src="img/icons/icons8-facebook-48.png">
+              </a>
+              <a href="https://www.instagram.com">
+              <img src="img/icons/icons8-instagram-48.png">
+            </a>
+            <a href="https://twitter.com">
+              <img src="img/icons/icons8-twitter-48.png">
+            </a>
+            </div>
+      
+          </div>
+        </footer>
 </body>
 
 </html>

@@ -76,33 +76,22 @@ nav{
     background-color: gold;
     /* margin-left: 10%;
     margin-right: 10%; */
-
-
 }
-.navbar{
-    
-    min-width: 50%;
-    
+.navbar{  
+    min-width: 50%;  
   
 }
 
 .nav-item{
-
-
-
-    
-    
+  
 }
-
-.nav-link{
-    
+.nav-link{ 
 }
 
 .btn-block{
 max-width: max-content;
 max-height: max-content;
 margin: 5;
-
 
 }
 
@@ -124,7 +113,6 @@ margin: 5;
 
 .estilo_nav_options{
     width: 30%;
-    
     text-align: justify;
 
 }

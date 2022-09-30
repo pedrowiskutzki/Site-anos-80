@@ -6,7 +6,7 @@
     src: url('./KeeponTruckin.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    color: green;
+    color: rgb(7, 214, 233);
 }
 
 .formulario{
@@ -19,7 +19,7 @@ h2, .botao{
     src: url('./KeeponTruckin.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    color: green;
+    color: rgb(90, 92, 219);
 }
 
 .rodape{
@@ -34,3 +34,4 @@ h2, .botao{
 .redessociais{
     width: 3%;
 }
+

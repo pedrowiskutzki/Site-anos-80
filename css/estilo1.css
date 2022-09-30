@@ -8,6 +8,10 @@
 body {
     background-image: linear-gradient(to right, #50f844, #31d7fc, #8725c5);
 }   
+
+header{
+    display: block;
+}
 .container-lg{
     background-color: #4a4e4a;
     border-radius: 5px;
@@ -55,7 +59,7 @@ img {
 h1 {
     position: center;
     font-family: 'retro', Courier, monospace;
-    color: yellow;
+    color: slateblue;
     font-size: 20px ;
 }
 p{
@@ -76,16 +80,26 @@ nav{
     background-color: gold;
     /* margin-left: 10%;
     margin-right: 10%; */
+
+
 }
-.navbar{  
-    min-width: 50%;  
+.navbar{
+    display: table;
+    width: 100%;
+    
   
 }
 
 .nav-item{
-  
+
+
+
+    
+    
 }
-.nav-link{ 
+
+.nav-link{
+    
 }
 
 .btn-block{
@@ -93,6 +107,14 @@ max-width: max-content;
 max-height: max-content;
 margin: 5;
 
+
+}
+
+.slogan{
+    font-family: 'retro';
+    font-size: 400%;
+    margin-top: 3%;
+    margin-left: 3%;
 }
 
 .carousel-inner{
@@ -113,15 +135,25 @@ margin: 5;
 
 .estilo_nav_options{
     width: 30%;
+    
     text-align: justify;
 
 }
+
+
+#footer{
+    margin: auto;
+}
 .layout-rodape{
-    bottom: 0;
-    background-color: rgb(12, 12, 12);
+    padding: 30px 0;
+    background-color: midnightblue;
+    width: 100%;
     text-align: center;
     font-weight: bold;
+   
+
+
 }
 .fonte_rodape{
-    color: yellow;
+    color: gold;
 }

@@ -10,7 +10,7 @@
 }
 
 .formulario{
-    display: block;
+    display: ;
     
 }
 
@@ -28,13 +28,12 @@ textarea {
     resize: none;
 
   }
-
   .nome>label{
     margin-right: 0%;
   }
 
   #inputnome{
-    margin-right: 43.9%;
+    margin-right: 43.8%;
   }
 
   .email>label{
@@ -47,4 +46,7 @@ textarea {
 
   .divbotao>.botao{
     margin-top: 5%;
+  }
+  .textoEmail{
+    box-sizing: static;
   }

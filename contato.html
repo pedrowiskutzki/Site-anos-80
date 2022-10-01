@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sweet Dreams</title>
+    <link rel="icon" href="/img//icons/SweetDreams.jpeg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estiloBasico.css">
     <link rel="stylesheet" href="css/estilo1.css">
@@ -37,23 +38,23 @@
         <h2>Fale conosco</h2>
         <form id="formulario">
             <div  class="nome">
-                <label>Nome:</label>
-                <input class="inputnome" id="inputnome" type="text">
+                <label for="inputNome">Nome:</label>
+                <input class="inputNome" id="inputNome" type="text" required>
             </div>
             <div class="email">
-                <label class="textoEmail">E-mail:</label>
-                <input class="inputemail" id="inputemail" type="text">
+                <label class="textoEmail" for="inputEmail">Email:</label>
+                <input class="inputEmail" id="inputEmail"  type="email" required>
             </div>
             <div class="fale-conosco">
                 <div class="mensagem">
                     <label>Digite sua mensagem:</label>
                 </div>
                 <div>
-                    <textarea class="inputmensagem" rows="10" cols="70" id="inputmensagem"></textarea>
+                    <textarea class="inputMensagem" rows="10" id="inputMensagem"></textarea>
                 </div>
             </div>
             <div class="divbotao">
-                <button onclick="alert('Mensagem enviada com sucesso!')" class="botao">
+                <button  onClick="validar()" class="botao">
                     <div>Enviar mensagem</div>
                 </button>
             </div>
@@ -78,6 +79,18 @@
       
           </div>
         </footer>
+
+        <script>
+            
+            function validar() {
+            let nome = document.getElementById('inputNome');
+            let email = document.getElementById('inputEmail');
+            let mensagem = document.getElementById('inputMensagem');
+
+            (nome.value == '' || email.value == '' || mensagem.value == '' ) ? alert('Favor preencher todos os campos.') : alert('Mensagem enviada com sucesso!');
+            }
+
+        </script>
 </body>
 
 </html>

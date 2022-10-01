@@ -9,10 +9,19 @@
   
 body {
     background-image: linear-gradient(to right, #50f844, #31d7fc, #8725c5);
+    
 }   
 
 header{
     display: inline;
+}
+
+.container-md{
+    background-color: #4a4e4a;
+    border-radius: 5px;
+    box-shadow: rgb(40, 255, 21) 10px 5px 5px;
+    height: auto;
+    width: 400px;
 }
 .container-lg{
     background-color: #4a4e4a;
@@ -31,7 +40,7 @@ header{
 
 }
 .row{
-display: flex;
+display: inline;
 }
 
 .col-md-12 {
@@ -98,10 +107,6 @@ nav{
     
 }
 
-.navbar-nav{
-
-}
-
 .search-container {
     background-color: rgb(6, 6, 61);
 
@@ -111,24 +116,20 @@ nav{
 
   }
 
-  .search-container>form{
-    display: inline;
-    margin: 0;
-  }
 
 .btn-block{
 max-width: max-content;
 max-height: max-content;
 margin: 5;
 
-
 }
 
 .slogan{
     font-family: 'retro';
-    font-size: 400%;
+    color: rgb(30, 30, 180);;
+    font-size: 4vw;
     margin-top: 3%;
-    margin-left: 3%;
+    margin-left: 16%;
 }
 
 .carousel-inner{
@@ -154,14 +155,7 @@ margin: 5;
 #footer{
     margin: auto;
 }
-.layout-rodape{
-    padding: 30px 0;
-    background-color: rgb(6, 6, 61);
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-   
-}
+
 .fonte_rodape{
     color: gold;
 }
@@ -175,4 +169,26 @@ margin: 5;
     top: 50px;
     bottom: 0;
     align-items: inherit;
+}
+
+
+.layout-rodape{
+    padding: 49px  0;
+    background-color: rgb(6, 6, 61);
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    bottom: 0;
+    
+}
+
+.layout-rodape2{
+    padding: 30px 0;
+    background-color: rgb(6, 6, 61);
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
 }
